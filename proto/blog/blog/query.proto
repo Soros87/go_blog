@@ -47,7 +47,7 @@ message QueryShowPostRequest {
 }
 
 message QueryShowPostResponse {
-  Post post = 1;
+  Post post = 1 [(gogoproto.nullable) = false];
 }
 
 message QueryListPostRequest {
