@@ -56,7 +56,8 @@ curl https://get.ignite.com/username/blog@latest! | sudo bash
 ## Consensus-Breaking Change
 
 This branch introduces a consensus-breaking change that affects how blocks are validated in the network. The change is [describe the change].
-Eg.This branch introduces a consensus-breaking change by switching the block hash algorithm from SHA-256 to SHA-3.
+Example
+This branch introduces a consensus-breaking change by switching the block hash algorithm from SHA-256 to SHA-3.
 
 ### Implications
 
@@ -68,6 +69,7 @@ Eg.This branch introduces a consensus-breaking change by switching the block has
 ### Upgrade Instructions
 
 - [Provide instructions for users or node operators on how to upgrade their software]
+  Example
 - Node operators must update their software to the latest version that supports the SHA-3 block hash algorithm.
 
 ### Feedback and Support
